@@ -1,6 +1,5 @@
-
 .footer {
-    font-size: 14px;
+  font-size: 14px;
 
   color: var(--color-tertiary);
   line-height: 1.8;
@@ -27,7 +26,7 @@
   top: 0;
   left: 0;
   opacity: 0;
- display: none;
+  display: none;
   background-color: rgba(46, 47, 66, 0.4);
   transition-property: visibility, opacity, transform;
   transition-duration: 250ms;
@@ -138,8 +137,9 @@
   vertical-align: bottom;
   color: var(--color-primary);
 }
+
 .team-links:hover,
-.team-links:focus{
+.team-links:focus {
   text-shadow: 1px 1px 2px black;
 }
 
@@ -147,4 +147,3 @@
   fill: var(--color-secondary);
 
 }
-                                                    

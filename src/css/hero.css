@@ -95,7 +95,7 @@
 .hero-moredetails-btn:hover,
 .hero-moredetails-btn:focus {
     color: #F87719;
-    background: #FFFFFF;
+
     border: 1px solid #F87719;
 }
 
@@ -295,6 +295,34 @@
     line-height: 167%;
     color: var(--text-primary-color);
 }
+
+
+/* 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #B7B7B7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+    border-radius: 5px;
+} */
+
+.hero-more-descriptions::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.hero-more-descriptions::-webkit-scrollbar-thumb {
+    background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+    border-radius: 5px;
+}
+
+
+
 
 
 .hero-more_deteils-add_btn {
